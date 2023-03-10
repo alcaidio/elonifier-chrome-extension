@@ -1,0 +1,20 @@
+[
+    {
+      "id": 1,
+      "priority": 100,
+      "action": { "type": "redirect", "redirect": { "url": "https://imageio.forbes.com/specials-images/imageserve/5fdab91b79474cbab94aec2a/Elon-Musk-Awarded-With-Axel-Springer-Award-In-Berlin/0x0.jpg?format=jpg&crop=4413,3488,x721,y14,safe&width=960" } },
+      "condition": {"urlFilter": "*.jpeg", "resourceType": ["image"]} 
+    },
+    {
+       "id": 2,
+       "priority": 100,
+       "action": { "type": "redirect", "redirect": { "url": "https://imageio.forbes.com/specials-images/imageserve/5fdab91b79474cbab94aec2a/Elon-Musk-Awarded-With-Axel-Springer-Award-In-Berlin/0x0.jpg?format=jpg&crop=4413,3488,x721,y14,safe&width=960" } },
+       "condition": {"urlFilter": "*.jpg", "resourceType": ["image"]} 
+    }, 
+    {
+        "id": 3,
+        "priority": 100,
+        "action": { "type": "redirect", "redirect": { "url": "https://imageio.forbes.com/specials-images/imageserve/5fdab91b79474cbab94aec2a/Elon-Musk-Awarded-With-Axel-Springer-Award-In-Berlin/0x0.jpg?format=jpg&crop=4413,3488,x721,y14,safe&width=960" } },
+        "condition": {"urlFilter": "*.png", "resourceType": ["image"]} 
+     }
+  ]
